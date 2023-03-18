@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Event list!</h1>
+ <div>
+ 
+      {% for event in event_list %}
+      <tr>
+        <td>{{ event.date.strftime("%d %b %Y") }}</td>
+        <td>{{ event.name}}</td>
+        <td>{{ event.number_of_guests }}</td>
+        <td>{{ event.location }}</td>
+        <td>{{ event.description }}</td>
+      </tr>
+      {% endfor %}
+ 
+</div>
+{% endblock %}
