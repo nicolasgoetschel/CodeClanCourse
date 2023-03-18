@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Make a new To-Do item</h1>
+
+<form action="/tasks" method="post">
+    <label for ="title">Title: </label>
+    <input type="text" id="title" name="title">
+    <label for="description">Description: </label>
+    <textarea name="description" id="description" cols="1" rows="33"></textarea>
+    <input type="submit" value="Add Task">
+</form>
+    
+{% endblock content %}
