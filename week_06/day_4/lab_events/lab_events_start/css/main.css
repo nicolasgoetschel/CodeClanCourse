@@ -1,0 +1,24 @@
+body {
+  font-family: Palatino;
+  background: coral;
+  color: aqua;
+}
+.box {
+  border: solid;
+  border-radius: 25px;
+  background: lightblue;
+  margin: 2em;
+  padding: 2em;
+}
+
+.h2-class {
+  color: blue;
+}
+
+.h3-class {
+  color: coral;
+}
+
+.p-class {
+  color: coral;
+}
