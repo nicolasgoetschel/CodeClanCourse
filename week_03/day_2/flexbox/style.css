@@ -1,0 +1,78 @@
+/* 
+flexbox cookbook
+
+display: flex
+enables flexbox for a container
+
+flex-director: row | column
+determines whether stuff is horizontal or vertical (row is default)
+
+justify-content: space-between
+controls how things are spread on the main axis
+
+align-items: center
+controls how things are aligned within the other axis
+
+gap: 1rem;
+adds a gap between elements
+*/
+
+.white-text {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+body>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: dodgerblue;
+}
+
+header>nav>ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+body>main {
+    margin: 3rem;
+}
+
+#author {
+    display: flex;
+    padding: 1rem;
+    gap: 1rep;
+    border: 2px dashed #eee;
+}
+
+#author>img {
+    border-radius: 100%;
+}
+
+#author>section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#author>section>h2, #author>section>h3 {
+    margin: 0;
+}
+
+body>footer {
+    padding: 1rem;
+    background: dodgerblue;
+}
+
+#footer-container {
+    display: flex;
+    gap: 2rem;
+    
+}
+
