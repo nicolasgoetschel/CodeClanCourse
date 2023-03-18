@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+body > header {
+    margin: 0;
+    padding: 1.2rem;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.header-link {
+    color: white;
+}
+
+.nav-list {
+    list-style: none;
+    text-decoration: underline;
+}
+
+body > main > article {
+    margin: auto;
+    width: 70%;
+    padding: 1.2rem;
+}
+
+.comment-box {
+    width: 100%;
+    height: 4rem;
+}
+
+.comment-form {
+    text-align: right;
+}
+
+.comment {
+    padding-top: 0.3rem;
+}
+
+body > footer {
+    padding: 0.1em;
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+}
